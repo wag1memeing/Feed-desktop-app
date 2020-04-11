@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap");
+
+body {
+	margin: 0;
+	display: grid;
+	grid-template-rows: 50px auto;
+	grid-template-columns: 200px auto;
+	grid-template-areas: "Logo Header" "Nav Content";
+	height: 100vh;
+	scroll-behavior: none;
+}
+
+header {
+	grid-area: Header;
+}
+
+.logo {
+	grid-area: Logo;
+}
+
+nav {
+	grid-area: Nav;
+}
+
+.content {
+	grid-area: Content;
+	display: block;
+}
+
+.youtube-channel-logo {
+	width: 44px;
+}
+
+.img-cell {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	width: 60px;
+}
+
+.img-title {
+	width: 60px;
+	text-align: center;
+}
+
+.channel-cell {
+	width: 240px;
+}
+
+.video-name {
+	width: 700px;
+}
+
+table {
+	border-collapse: collapse;
+	max-height: 555px;
+	overflow-y: auto;
+}
+
+th,
+td {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 200;
+}
+
+th {
+	text-align: left;
+	font-weight: 700;
+	background-color: #fff;
+	position: sticky;
+	top: -1px;
+}
+
+tr:nth-child(even) {
+	background-color: #f0f0f0;
+	border: #f0f0f0;
+}
