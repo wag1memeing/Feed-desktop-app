@@ -7,7 +7,7 @@ header {
 }
 
 .title-div {
-	width: 900px;
+	width: 920px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -30,7 +30,7 @@ header {
 }
 
 .header-btns img {
-	width: 30px;
+	width: 20px;
 }
 
 .logo {
