@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+	font-family: "Montserrat", sans-serif;
+	color: #000;
+	font-weight: 200;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #dadada;
+	padding: 5px;
+}
+
+.title-div {
+	width: 880px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-title {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin: auto;
+}
+
+.header-btns {
+	display: flex;
+	flex-direction: row;
+}
+
+.header-btns a {
+	margin: auto 10px;
+}
+
+.header-btns img {
+	width: 20px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.key {
+	margin-top: 10px;
+}
+
+.key p {
+	margin: 0;
+}
+
+span {
+	font-size: 14px;
+}
+
+textarea {
+	resize: none;
+}
+
+.delay {
+	display: flex;
+	flex-direction: column;
+	height: 50px;
+	margin: 20px 0 15px;
+}
+
+.delay-input {
+	border-radius: 17.5px;
+	border-color: #d0d0d0;
+	border-width: 2px;
+	outline: none;
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	border-style: solid;
+}
+
+.buttons {
+	text-align: right;
+	margin: 0;
+}
+
+button {
+	width: 100px;
+	height: 35px;
+	border-radius: 17.5px;
+	border-color: #d0d0d0;
+	border-width: 2px;
+	outline: none;
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	border-style: solid;
+}
+
+button:hover {
+	cursor: pointer;
+}
