@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 
 * {
 	font-family: "Montserrat", sans-serif;
 	color: #000;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 body {
@@ -14,14 +14,15 @@ header {
 	display: flex;
 	flex-direction: row;
 	border-bottom: 1px solid #dadada;
-	padding: 5px;
 }
 
 .title-div {
 	width: 880px;
+	height: 35px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	-webkit-app-region: drag;
 }
 
 .page-title {
