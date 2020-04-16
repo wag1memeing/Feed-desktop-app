@@ -1,4 +1,5 @@
 const {remote} = require("electron")
+const path = require("path")
 
 function Exit(){
     let currentWindow = remote.getCurrentWindow();
