@@ -59,4 +59,5 @@ nav {
 .search-bar a img {
 	width: 37px;
 	margin: auto;
+	filter: opacity(30%);
 }
