@@ -20,6 +20,7 @@ function Settings(){
         webPreferences: {
         nodeIntegration: true
         },
+        icon: path.join(__dirname, 'Wag1 Memeing.png')
     });
     
     // and load the index.html of the app.
@@ -40,6 +41,7 @@ function Confirm(){
         webPreferences: {
         nodeIntegration: true
         },
+        icon: path.join(__dirname, 'Wag1 Memeing.png')
     });
     
     // and load the index.html of the app.
