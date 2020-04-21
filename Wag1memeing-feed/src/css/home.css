@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	display: grid;
 	grid-template-rows: 50px auto;
-	grid-template-columns: 180px auto;
+	grid-template-columns: 200px auto;
 	grid-template-areas: "Logo Header" "Nav Content";
 	height: 100vh;
 	scroll-behavior: none;
